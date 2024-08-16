@@ -13,7 +13,10 @@
         <main>
             <section class="caja_principal">
                 <textarea id="contenido" type="text" placeholder="Ingresa el texto aquí" class="contenido"></textarea>
-                
+                <div class="div__advertencia">
+                    <img class="img__alerta" src="./img/Group.png" alt="signo__alerta">
+                    <div class="texto__alerta">Solo letras minúsculas y sin acentos</div>
+                </div>
                 <div class="btn">
                     <button class="btn__funcion btn_encriptador" onclick="clickEncriptar();">Encriptar</button>
                     <button class="btn__funcion btn_desencriptador" onclick="clickDesencriptar();">Desencriptar</button>
@@ -29,7 +32,6 @@
             </div>
         </main>
         <footer>
-
         </footer>
         <script src="./app.js"></script>
     </body>

@@ -41,6 +41,7 @@ main {
     width: 85%;
     color: #0A3871;
     margin-right: 4rem;
+    margin-bottom: -3rem;
     font-size: 2rem;
     font-family: "Inter", sans-serif;
     padding-top: 2rem;
@@ -90,6 +91,23 @@ main {
 strong {
     font-size: 1.5rem;
     color: black;
+}
+
+.div__advertencia {
+    font-family: "Inter", sans-serif;
+    font-size: 12;
+    color: #495057;
+    display: flex;
+    margin: 1.5rem;
+}
+
+.texto__alerta {
+    margin-left: 0.5rem;
+}
+
+.img__alerta {
+    margin-top: 0.13rem;
+    height: 100%;
 }
 
 .btn {
@@ -149,6 +167,18 @@ strong {
         display: none;
     }
 
+    .btn {
+        width: 100%;
+        padding-top: 1rem;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        margin-left: -1rem;
+    }
+
+    .btn__funcion {
+        width: 50%;
+    }
 
     .btn__copiar {
         position: static;
@@ -156,13 +186,7 @@ strong {
         visibility: hidden;
     }
 
-    .btn {
-        padding-top: 1rem;
-        display: flex;
-        justify-content: center;
-        margin: 0 auto;
-    }
-
+    
 }
 
 @media (max-width: 556px){
